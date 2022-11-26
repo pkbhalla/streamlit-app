@@ -8,7 +8,7 @@ st.write("""
 """)
 def body(a):
   b="The product of given numbers is "
-  return b+a
+  return b+str(a)
 #Input the numbers
 first_no = st.number_input("Enter first number")
 second_no = st.number_input("Enter second number")
