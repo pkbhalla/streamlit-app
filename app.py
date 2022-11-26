@@ -8,8 +8,10 @@ st.write("""
 """)
 
 #Input the numbers
-first_no = st.number_input("Enter first number",min_value=0.0,max_value=999999999.9)
-second_no = st.number_input("Enter second number",min_value=0.0,max_value=999999999.9)
+first_no = st.number_input("Enter first number")
+second_no = st.number_input("Enter second number")
 product = first_no*second_no
-st.write("The product of given numbers is", product)
+if st.button("Click to get product of 2 numbers"):
+  body("The product of given numbers is", product)
+#st.write("The product of given numbers is", product)
 st.write("By Pratham Bhalla (21f1003052)")
