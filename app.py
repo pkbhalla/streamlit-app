@@ -14,6 +14,6 @@ first_no = st.number_input("Enter first number")
 second_no = st.number_input("Enter second number")
 product = first_no*second_no
 if st.button("Click to get product of 2 numbers"):
-  body(product)
-#st.write("The product of given numbers is", product)
+  print(body(product))
+st.write("The product of given numbers is", product)
 st.write("By Pratham Bhalla (21f1003052)")
